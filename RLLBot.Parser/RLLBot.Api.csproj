@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RLLBot.Core\RLLBot.Core.csproj" />
+    <ProjectReference Include="..\RLLBot.DAL\RLLBot.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ballchasing.Net">
+      <HintPath>..\..\Ballchasing.Net\bin\Debug\net7.0\Ballchasing.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
